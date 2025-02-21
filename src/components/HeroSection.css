@@ -1,0 +1,187 @@
+.main {
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  width: 100%;
+  margin-top: -100px;
+  background-size: cover;
+  align-items: center;
+  overflow-x: hidden;
+  justify-content: center;
+  display: flex;
+  background-position: center;
+  min-height: 710px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(https://springboard-cdn.appadvice.com/wp-content/appadvice-v2-media/2016/11/Netflix-background_860c8ece6b34fb4f43af02255ca8f225.jpg);
+}
+
+.area {
+  color: white;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.area h1 {
+  font-size: 56px;
+  word-spacing: 15px;
+  line-height: 70px;
+  font-weight: 900px;
+  color:rgb(255, 255, 255) ;
+}
+
+.area h3 {
+  margin-top: -20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.search {
+  width: 110%;
+  background-color: none;
+  min-height: 75px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.box {
+  width: 100%;
+  min-height: 65px;
+  background-color: transparent;
+  border-radius: 5px;
+  padding-left: 10px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.try {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #e50914;
+  min-height: 70px;
+  width: 40%;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 24px;
+  border-radius: 5px;
+}
+
+.area h4 {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .area h1 {
+    font-size: 50px;
+    line-height: 65px;
+    word-spacing: 10px;
+  }
+
+  .area h3 {
+    font-size: 24px;
+  }
+
+  .search {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .box {
+    width: 80%;
+    min-height: 55px;
+  }
+
+  .try {
+    width: 80%;
+    font-size: 24px;
+    min-height: 60px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .area{
+    margin-top: 0px;
+  }
+  .area h1 {
+    font-size: 32px;
+    line-height: 40px; 
+    padding-bottom: 10px;
+    font-weight: 700;
+  }
+
+  .area h3 {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: normal;
+  }
+
+  .area h4 {
+    font-size: 16Spx;
+    font-weight: normal;
+    line-height: 24px;
+    padding: 0px 20px;
+  }
+
+  .search {
+    width: 85%;
+    flex-direction: column;
+  }
+
+  .box {
+    width: 100%;
+    min-height: 50px;
+  }
+
+  .try {
+    width: 50%;
+    font-size: 20px;
+    min-height: 55px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    min-height: 600px;
+  }
+
+  .area h1 {
+    font-size: 32px;
+    word-spacing: 4px;
+    line-height: 30px;  
+  }
+
+  .area h3 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .search {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .box {
+    width: 100%;
+    min-height: 45px;
+  }
+
+  .try {
+    width: 100%;
+    font-size: 18px;
+    min-height: 50px;
+  }
+}

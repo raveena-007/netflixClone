@@ -1,7 +1,7 @@
-#root {
-  max-width: 100%;
-  margin: 0 ;
+body {
+  width: 100vw;
   padding: 0;
-  text-align: center;
+  margin: 0;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  background-color: rgba(12, 3, 3, 0.89);
 }
-

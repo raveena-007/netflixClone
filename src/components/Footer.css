@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 90%;
   min-height: 375px;
   background-color: black;
   margin-top: 10px;
